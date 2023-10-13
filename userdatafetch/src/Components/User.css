@@ -1,0 +1,61 @@
+.mainuser {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.userdata button a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.userdata button:hover {
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.userdata h1 {
+    margin-left: 650px;
+}
+
+.userdata button {
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+    margin-left: 700px;
+    background-color: wheat;
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .mainuser {
+        display: block;
+        justify-content: center;
+        gap: 30px;
+        box-sizing: 350px;
+        margin: 20px;
+    }
+
+    .userdata h1 {
+        margin-left: 85px;
+    }
+
+    .userdata button {
+        height: 40px;
+        width: 80px;
+        border-radius: 8px;
+        margin-left: 130px;
+        background-color: wheat;
+
+    }
+    .userdata button:hover {
+
+        background-color: rgb(255, 255, 255);
+    
+    }
+
+}
